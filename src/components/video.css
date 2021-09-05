@@ -1,0 +1,5 @@
+.videoholder{
+    background-color:white;
+    max-height: 91vh;
+    overflow: scroll;
+}

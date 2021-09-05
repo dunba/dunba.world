@@ -25,9 +25,25 @@ ul li{
     flex-direction: row;
     align-items: baseline;
 }
+#firstname{
+    
+        text-decoration: none;
+        color: black;
+}
+#firstname:visited{
+    text-decoration:none;
+    color: black;
+
+}
 
 .menuburger{
-    padding: 2em 0;
+    padding: 1em 0;
+    
+}
+#menuburgermain{
+    position: fixed;
+    top: 1em;
+    right: 3em;
 }
 #menuburgermain:hover{
     cursor: pointer;
@@ -35,18 +51,20 @@ ul li{
 
 .menupopup{
     top:0;
-    z-index: 2;
-    background-color: rgb(255, 29, 29);
+    z-index: 0;
+    background-color:white;
     position: absolute;
     height: 100vh;
     width: 100%;
     display: flex;
+    overflow: hidden;
 }
 
 #closeoutbutton{
     position: fixed;
     top: 1em;
     right: 3em;
+    z-index: 1;
 }
 #closeoutbutton:hover{
     cursor: pointer;

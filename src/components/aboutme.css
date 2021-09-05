@@ -1,0 +1,46 @@
+#greeting{
+    font-size: 4em;
+    margin: 0;
+}
+#subgreeting{
+    font-size: 1.8em;
+    font-weight: 200;
+}
+#explanation{
+    margin-top: 1.5em;
+    font-size: 1em;
+    padding: 0 5em;
+    text-align: center;
+    line-height: 2em;
+    color: grey;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.actiondiv{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+   
+}
+#viewresume{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+#viewresume:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.splashchoices{
+    width: 100%;
+    margin: auto;
+}
+#iconspan{
+    margin: 0 1em;
+}

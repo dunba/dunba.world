@@ -1,0 +1,54 @@
+
+.skillsdiv ul{
+    text-align: left;
+    }
+
+.flexcontainer{
+    padding: 0 3em;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.skillsdiv ul li{
+font-size: 1em;
+}
+
+.skillsdiv ul li:hover{
+    background-color: rgb(168, 168, 168);
+    }
+
+.skillheader{
+    font-weight: bold;
+    text-align: left;
+}
+
+.jobpic{
+    width: 6em;
+}
+.joblisting{
+
+}
+
+.wrapper{
+    max-height: 20em;
+    margin: 1em auto;
+    text-align: left;
+    
+}
+.position{
+    font-weight: bold;
+   
+
+}
+.company{
+    font-weight: bold;
+    
+
+}
+.lighter{
+    font-weight: 300;
+  
+
+}
