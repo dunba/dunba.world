@@ -21,7 +21,7 @@ const menuHandler=()=>{
   <div className='navholder'>
 <div className='headline'><div className='name'></div></div> <div><ul>
 <li><NavLink to='/resume' onClick={menuHandler}>Resume</NavLink></li>
-<li><NavLink to='/projects' onClick={menuHandler}>Coding Projects</NavLink></li>
+<li><NavLink to='/projects' onClick={menuHandler}> Projects</NavLink></li>
 <li><NavLink to='/videos' onClick={menuHandler}>Videos</NavLink></li>
 <li><NavLink to='/connect' onClick={menuHandler}>Connect</NavLink></li>
 </ul> </div>

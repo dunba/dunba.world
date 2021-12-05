@@ -8,8 +8,12 @@ import { useState } from "react";
 import GradeIcon from '@material-ui/icons/Grade';
 import { NavLink } from 'react-router-dom';
 import DescriptionIcon from '@material-ui/icons/Description';
+import { motion } from "framer-motion";
+
 
  const AboutMe =()=>{
+
+    const transition = { duration: .6, ease: [0.43, .13, -.13, .96] }
 
     const [placeholder,setPlaceholder]=useState('Skills Section')
     const [isHovering,setIsHovering]=useState(false)
@@ -19,10 +23,10 @@ import DescriptionIcon from '@material-ui/icons/Description';
      return(
          <div className='flexcontainer'>
              <h4 id='greeting'>Hello, I’m Dunba. </h4><br/>
-                <div id='subgreeting'> Producer, Developer.
+                <div id='subgreeting'> Creative, Developer.
 </div>
-<p id='explanation'>           Experienced in Sports and News media. I am passionate about media and technology, and aim to build
-            innovative products at the intersection of both industries.</p>
+<p id='explanation'>    I am passionate about music, media and technology, and aim to build
+            innovative products at the intersection of those industries.</p>
 
             {/* <div className='splashchoices'>
             <span id='iconspan'><GradeIcon onMouseEnter={hoverHandler}
@@ -30,10 +34,10 @@ import DescriptionIcon from '@material-ui/icons/Description';
                 </div> */}
 
 <div className='actiondiv'>
-    <div><NavLink id='viewresume' to='/resume'><DescriptionIcon/></NavLink></div>
-    <div><NavLink id='viewresume' to='/projects'><CodeIcon/></NavLink></div>
-    <div><NavLink id='viewresume' to='/videos'><VideoLibraryIcon/></NavLink></div>
-    <div><NavLink id='viewresume' to='/connect'><EmailIcon/></NavLink></div>
+    <motion.div  whileHover={{ scale: 1.3 }} transition={transition} exit={{opacity:0}}><NavLink id='viewresume' to='/resume'><DescriptionIcon/></NavLink></motion.div>
+    <motion.div  whileHover={{ scale: 1.3 }} transition={transition} exit={{opacity:0}}><NavLink id='viewresume' to='/projects'><CodeIcon/></NavLink></motion.div>
+    <motion.div  whileHover={{ scale: 1.3 }} transition={transition} exit={{opacity:0}}><NavLink id='viewresume' to='/videos'><VideoLibraryIcon/></NavLink></motion.div>
+    <motion.div  whileHover={{ scale: 1.3 }} transition={transition} exit={{opacity:0}}><NavLink id='viewresume' to='/connect'><EmailIcon/></NavLink></motion.div>
     </div>
             
          </div>
