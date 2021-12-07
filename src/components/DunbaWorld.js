@@ -1,14 +1,21 @@
-import React from "react"
+import React, { useState, useEffect } from "react";
 import '../components/skills.css'
 
+
  const DunbaWorld =()=>{
+
+    const [isNameDisplayed,setisNameDisplayed] = useState(true);
+    const showName=()=>{
+        isNameDisplayed?setisNameDisplayed(false):setisNameDisplayed(true)
+
+    }
 
     const socials =[{site:"Soundcloud", url:"https://soundcloud.com/dunba", icon:"white"},{site:"Twitter", url:"https://twitter.com/dunbatopaz", icon:"white"},{site:"Instagram", url:"https://instagram.com/dunbatopaz", icon:"white"},{site:"Email", url:"mailto:hello@dunba.world", icon:"white"}]
      return(
          <div className='flexcontainer'>
 <div className='hompageholder'>
     <div className='nameheader'>
-    <h1>DUNBA</h1>
+    {isNameDisplayed?<h1 onClick={showName}>DUNBA</h1>:<h1 onClick={showName}>@dunbatopaz</h1>}
     <p>🎹 🥁 + 🎥 📺 </p>
     <p>PRODUCER</p>
     </div>
