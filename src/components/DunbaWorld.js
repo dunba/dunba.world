@@ -8,7 +8,7 @@ import '../components/skills.css'
          <div className='flexcontainer'>
 <div className='hompageholder'>
     <div className='nameheader'>
-    <h1>@dunbatopaz</h1>
+    <h1>DUNBA</h1>
     <p>🎹 🥁 + 🎥 📺 </p>
     <p>PRODUCER</p>
     </div>
