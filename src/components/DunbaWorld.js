@@ -10,7 +10,7 @@ import '../components/skills.css'
 
     }
 
-    const socials =[{site:"Soundcloud", url:"https://soundcloud.com/dunba", icon:"white"},{site:"Twitter", url:"https://twitter.com/dunbatopaz", icon:"white"},{site:"Instagram", url:"https://instagram.com/dunbatopaz", icon:"white"},{site:"Email", url:"mailto:hello@dunba.world", icon:"white"}]
+    const socials =[{site:"Soundcloud", url:"https://soundcloud.com/dunba", icon:"white"},{site:"Instagram", url:"https://instagram.com/dunbatopaz", icon:"white"},{site:"Twitter", url:"https://twitter.com/dunbatopaz", icon:"white"},{site:"Email", url:"mailto:hello@dunba.world", icon:"white"}]
      return(
          <div className='flexcontainer'>
 <div className='hompageholder'>
