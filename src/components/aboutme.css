@@ -1,44 +1,50 @@
-#greeting{
-    font-size: 4em;
-    margin: 0;
+#greeting {
+  font-size: 4em;
+  margin: 0;
 }
-#subgreeting{
-    font-size: 1.8em;
-    font-weight: 200;
+#subgreeting {
+  font-size: 1.8em;
+  font-weight: 200;
 }
-#explanation{
-    font-size: 1em;
-    text-align: center;
-    line-height: 2em;
-    color: rgb(70, 70, 70);
-}
-.flexcontainer{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    max-height: 100vh;
-}
-.actiondiv{
-    display: flex;
-    flex-direction: row;
-    margin: auto; 
+#explanation {
+  font-size: 1em;
+  text-align: center;
+  line-height: 2em;
+  color: rgb(70, 70, 70);
 }
 
-#viewresume{
-    text-decoration: none;
-    color: black;
-    padding: 1em;
-}
-#viewresume:visited{
-    text-decoration: none;
-    color: black;
+.actiondiv {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 
+.aboutcontainer {
+  background-color: white;
+  min-height: 100vh;
+  max-width: 100vw;
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    
-    }
-    
+  overflow: hidden;
+}
+.greetingholder {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 12.5%;
+}
+
+#viewresume {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+}
+#viewresume:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
