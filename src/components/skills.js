@@ -10,10 +10,10 @@ const Skills = () => {
     <div>
       <div className='skillsdiv'>
         <h1>Skills</h1><br />
-        <p>Through years of experience i have gained skills in web development, music and video production.</p><br />
+        <p>Through years of experience i have gained skills in software development, music and video production.</p><br />
         <div className="sectionholder">
           <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
-            <div className='skillheader'>Web Design</div>
+            <div className='skillheader'>Software Development</div>
             <ul>
               <li>Javascript ES6</li>
               <li>HTML & CSS</li>
@@ -35,17 +35,18 @@ const Skills = () => {
             </ul>
           </motion.section>
           <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
-            <div className='skillheader'>Sound Design & Music</div>
+            <div className='skillheader'>Sound Design & Music Production</div>
             <ul>
               <li>Ableton Live</li>
               <li>AVID Pro Tools</li>
+              <li>FL Studio</li>
             </ul>
           </motion.section>
         </div>
         <br />
         <br />
         <h1>Resume</h1>
-        <p>Click <a>Here</a> to view resume.</p>
+        <p>Click <a href='#' target='_blank'>Here</a> to view resume.</p>
       </div>
 
 
