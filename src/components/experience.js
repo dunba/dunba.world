@@ -63,7 +63,7 @@ const Experience = () => {
 
 
   return (<div>
-    <div className="flexcontainer">
+    <div>
       <h1>Work Experience</h1><br />
       {jobs.map(job => (
         <div className='joblisting'>

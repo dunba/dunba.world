@@ -25,6 +25,8 @@ function App() {
           <Route exact component={Volley} path="/projects/Volley}" />
           <Route exact component={AboutMe} path="/" />
           < Route exact component={Skills} path="/skills" />
+          < Route exact component={Resume} path="/resume" />
+
           <  Route exact component={Experience} path="/experience" />
           < Route exact component={Projects} path="/projects" />
         </Switch>

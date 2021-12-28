@@ -4,7 +4,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0 2em;
+  padding: 0.4em 2em;
   position: fixed;
 }
 
@@ -13,8 +13,17 @@ nav {
 }
 .navlinks ul li {
   display: inline;
-  margin: 0 0.5em;
+  margin: 0 0.7em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-.navlinks:hover {
+
+.navlinks ul li:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navlinks ul li:hover {
   cursor: pointer;
 }

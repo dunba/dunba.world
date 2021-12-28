@@ -17,11 +17,11 @@ const AboutMe = () => {
                 <h4 id='greeting'>Hello, I’m Dunba. </h4><br />
                 <div id='subgreeting'> Creative, Developer
                 </div>
-                <p id='explanation'>   with a professional background in News and Sports media. I am passionate about media and technology, and i aim to build innovative products at the intersection of both industries.</p>
+                <p id='explanation'>   With a professional background in <b>News</b> and <b>Sports Media</b>, i am passionate about media and technology, and aim to build innovative products at the intersection of both industries.</p>
                 <div className='icons'>
-                    <motion.div whileHover={{ scale: 1.3 }} transition={transition} exit={{ opacity: 0 }}><a target='_blank' href='https://github.com/dunba' id='viewresume' ><GitHubIcon /></a></motion.div>
-                    <motion.div whileHover={{ scale: 1.3 }} transition={transition} exit={{ opacity: 0 }}><a target='_blank' href='https://linkedin.com/in/dunba' id='viewresume' ><LinkedInIcon /></a></motion.div>
-                    <motion.div whileHover={{ scale: 1.3 }} transition={transition} exit={{ opacity: 0 }}><a href='mailto:hello@dunba.world' id='viewresume'><EmailIcon /></a></motion.div>
+                    <motion.div whileHover={{ scale: 1.5 }} transition={transition} exit={{ opacity: 0 }}><a target='_blank' href='https://github.com/dunba' id='viewresume' ><GitHubIcon /></a></motion.div>
+                    <motion.div whileHover={{ scale: 1.5 }} transition={transition} exit={{ opacity: 0 }}><a target='_blank' href='https://linkedin.com/in/dunba' id='viewresume' ><LinkedInIcon /></a></motion.div>
+                    <motion.div whileHover={{ scale: 1.5 }} transition={transition} exit={{ opacity: 0 }}><a href='mailto:hello@dunba.world' id='viewresume'><EmailIcon /></a></motion.div>
                 </div>
             </div>
 

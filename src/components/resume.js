@@ -1,16 +1,16 @@
 import React from "react"
 import Skills from '../components/skills'
 import Experience from '../components/experience'
+import '../components/resume.css'
 
 
 
 const Resume = () => {
 
      return (
-          <div>
+          <div className="resumecontainer">
                <Skills />
-               <hr />
-               <Experience />
+
           </div>
      )
 }
