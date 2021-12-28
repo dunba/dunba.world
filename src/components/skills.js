@@ -1,14 +1,18 @@
 import React from "react"
 import '../components/skills.css'
+import { motion } from "framer-motion";
+
 
 const Skills = () => {
+  const transition = { duration: .7, ease: [0.43, .13, -.13, .96] }
+
   return (
     <div>
       <div className='skillsdiv'>
         <h1>Skills</h1><br />
-        <p>Through years of experience i have a combination of skills in web development and media production.</p><br />
+        <p>Through years of experience i have gained skills in web development, music and video production.</p><br />
         <div className="sectionholder">
-          <section>
+          <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
             <div className='skillheader'>Web Design</div>
             <ul>
               <li>Javascript ES6</li>
@@ -19,8 +23,8 @@ const Skills = () => {
               <li>Material UI</li>
               <li>Framer Motion</li>
             </ul>
-          </section>
-          <section>
+          </motion.section>
+          <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
             <div className='skillheader'>Video Editing</div>
             <ul>
               <li>Adobe After Effects & Premiere</li>
@@ -29,15 +33,19 @@ const Skills = () => {
               <li>Avid Media Composer</li>
 
             </ul>
-          </section>
-          <section>
+          </motion.section>
+          <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
             <div className='skillheader'>Sound Design & Music</div>
             <ul>
               <li>Ableton Live</li>
               <li>AVID Pro Tools</li>
             </ul>
-          </section>
+          </motion.section>
         </div>
+        <br />
+        <br />
+        <h1>Resume</h1>
+        <p>Click <a>Here</a> to view resume.</p>
       </div>
 
 

@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <div>
-      <nav><h3 id='firstname'><NavLink to='/'>DUNBA</NavLink></h3>
+      <nav><h3 id='firstname'><NavLink activeStyle={{ color: "black", textDecoration: "none" }} style={{ textDecoration: 'none' }} to='/'>DUNBA</NavLink></h3>
         <div className='navlinks'>
           <ul>
             <li id='textlink' ><NavLink activeStyle={{ color: "red", textDecoration: "none" }} style={{ textDecoration: 'none' }} to='/' exact>ABOUT</NavLink></li>
