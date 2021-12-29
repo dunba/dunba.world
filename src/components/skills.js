@@ -15,10 +15,11 @@ const Skills = () => {
           <motion.section whileHover={{ scale: 1.05 }} transition={transition} exit={{ opacity: 0 }}>
             <div className='skillheader'>Software Development</div>
             <ul>
-              <li>Javascript ES6</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Node.JS</li>
               <li>HTML & CSS</li>
               <li>SASS</li>
-              <li>React</li>
               <li>Firebase</li>
               <li>Material UI</li>
               <li>Framer Motion</li>

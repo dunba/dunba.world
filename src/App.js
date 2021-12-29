@@ -22,7 +22,8 @@ function App() {
         <Nav />
         <Switch>
           <Route exact component={DunbaWorld} path="/linktree" />
-          <Route exact component={Volley} path="/projects/Volley}" />
+          <Route component={AboutMe} path="/projects/WRLD" />
+          <Route component={Volley} path="/projects/Volley" />
           <Route exact component={AboutMe} path="/" />
           < Route exact component={Skills} path="/skills" />
           < Route exact component={Resume} path="/resume" />

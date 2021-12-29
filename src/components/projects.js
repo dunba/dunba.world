@@ -33,7 +33,8 @@ const Projects = () => {
           <div className='projectposting'>
 
             <NavLink to={`projects${project.route}`}>
-              <motion.img whileHover={{ scale: 1.1 }} transition={transition} exit={{ opacity: 0 }} id='projectpic' src={project.pic} /></NavLink>
+              {project.pic ?
+                <motion.img whileHover={{ scale: 1.1 }} transition={transition} exit={{ opacity: 0 }} id='projectpic' src={project.pic} /> : <ClipLoader />}</NavLink>
             <h2 className='projectname'>{project.name}</h2>
             <p className='projectdesc'>{project.description}</p>
             <p id='viewproject'> <NavLink to={project.route}>VIEW PROJECT</NavLink> <NavigateNextIcon id='viewproject' /> </p>
