@@ -46,7 +46,7 @@ const Skills = () => {
         <br />
         <br />
         <h1>Resume</h1>
-        <p>Click <a href='#' target='_blank'>Here</a> to view resume.</p>
+        <p>Click <a href='https://drive.google.com/file/d/1J0Q6wNatJK-w5uqRxhAHll3RYVjgQBGs/view?usp=sharing' target='_blank'>Here</a> to view resume.</p>
       </div>
 
 
